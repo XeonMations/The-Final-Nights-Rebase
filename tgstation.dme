@@ -6843,6 +6843,7 @@
 #include "modular_darkpack\modules\masquerade\code\masquerade_globals.dm"
 #include "modular_darkpack\modules\matrix\code\job.dm"
 #include "modular_darkpack\modules\matrix\code\matrix.dm"
+#include "modular_darkpack\modules\mobs\pets\cat.dm"
 #include "modular_darkpack\modules\npcs_human\code\__npc.dm"
 #include "modular_darkpack\modules\npcs_human\code\npc_aggression.dm"
 #include "modular_darkpack\modules\npcs_human\code\npc_globals.dm"

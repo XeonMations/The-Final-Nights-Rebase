@@ -6,7 +6,6 @@
 	icon_living = "beast_crinos"
 
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID|MOB_BEAST
-	speak_chance = 0
 
 	speed = 1
 	max_stamina = 575
@@ -21,7 +20,7 @@
 
 	attack_verb_continuous = "slashes"
 	attack_verb_simple = "slash"
-	attack_sound = 'sound/weapons/slash.ogg'
+	attack_sound = 'sound/items/weapons/slash.ogg'
 
 	bloodpool = 10
 	maxbloodpool = 10

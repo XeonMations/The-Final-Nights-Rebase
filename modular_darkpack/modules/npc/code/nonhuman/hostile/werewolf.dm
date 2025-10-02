@@ -24,3 +24,23 @@
 
 	bloodpool = 10
 	maxbloodpool = 10
+	ai_controller = /datum/ai_controller/basic_controller/crinos_beast
+
+/mob/living/basic/crinos_beast/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/ai_retaliate)
+
+///nothing unique, just retaliation.
+/datum/ai_controller/basic_controller/crinos_beast
+	blackboard = list(
+		BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic,
+	)
+
+	ai_movement = /datum/ai_movement/basic_avoidance
+	idle_behavior = /datum/idle_behavior/idle_random_walk
+	planning_subtrees = list(
+		/datum/ai_planning_subtree/escape_captivity,
+		/datum/ai_planning_subtree/target_retaliate,
+		/datum/ai_planning_subtree/simple_find_target,
+		/datum/ai_planning_subtree/basic_melee_attack_subtree,
+	)

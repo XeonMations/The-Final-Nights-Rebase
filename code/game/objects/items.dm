@@ -778,6 +778,11 @@
  * polling ghosts while it's just being equipped as a visual preview for a dummy.
  */
 /obj/item/proc/visual_equipped(mob/user, slot, initial = FALSE)
+	SHOULD_CALL_PARENT(TRUE) // DARKPACK EDIT ADD - Make sure these signals get called, needed for world icons
+	// DARKPACK EDIT ADD START - World icons
+	SEND_SIGNAL(src, COMSIG_ITEM_VISUAL_EQUIPPED, user, slot)
+	SEND_SIGNAL(user, COMSIG_MOB_VISUAL_EQUIPPED_ITEM, src, slot)
+	// DARKPACK EDIT ADD END - World icons
 	return TRUE
 
 /**

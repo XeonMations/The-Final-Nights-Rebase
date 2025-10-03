@@ -952,7 +952,7 @@ LOW_WALL_HELPER(vampwall/wood)
 	. = ..()
 	if(istype(mover, /mob/living/carbon/human))
 		if(prob(10))
-			new /mob/living/simple_animal/pet/rat(oldloc)
+			new /mob/living/basic/mouse/rat/vampire(oldloc)
 */
 
 /turf/open/floor/plating/vampcanal/Initialize(mapload)
@@ -972,7 +972,7 @@ LOW_WALL_HELPER(vampwall/wood)
 	. = ..()
 	if(istype(mover, /mob/living/carbon/human))
 		if(prob(10))
-			new /mob/living/simple_animal/pet/rat(oldloc)
+			new /mob/living/basic/mouse/rat/vampire(oldloc)
 */
 
 /turf/open/floor/plating/vampcanal/Initialize(mapload)

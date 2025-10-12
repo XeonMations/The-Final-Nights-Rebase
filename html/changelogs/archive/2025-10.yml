@@ -34,3 +34,6 @@
   Hawk-v3:
   - rscadd: Goat Plushie + loot lists for mapping random spawn plushies.
   - rscadd: Tzimisce Plushie + loot lists for mapping random spawn plushies.
+2025-10-12:
+  XeonMations:
+  - bugfix: Fixed README file on the repository.

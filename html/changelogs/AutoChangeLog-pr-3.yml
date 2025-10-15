@@ -1,4 +1,0 @@
-author: "XeonMations"
-delete-after: True
-changes:
-  - code_imp: "Added linters to the modular_tfn files."

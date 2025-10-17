@@ -53,3 +53,7 @@
 2025-10-16:
   KCartridge:
   - rscdel: A lot of crafting recipes
+2025-10-17:
+  FalloutFalcon:
+  - balance: More stuff uses stats
+  - bugfix: fixed runtime from trying to play empty* sound

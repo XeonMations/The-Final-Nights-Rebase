@@ -1,8 +1,0 @@
-author: "bomby, thatguythere03"
-delete-after: True
-changes:
-  - rscadd: "adds new police clothes"
-  - rscadd: "adds park ranger car with amber lightbar"
-  - balance: "SWAT officers now get police keys and an IFAK"
-  - image: "updated icons for the unmarked police car and original police gear"
-  - map: "added ranger car to runtimetown"

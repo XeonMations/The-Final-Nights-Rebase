@@ -7,6 +7,7 @@
 	#ifdef ALL_MAPS
 		// DARKPACK EDIT CHANGE START
 		#include "map_files\Vampire\runtimetown.dmm"
+		#include "map_files\Vampire\SanFrancisco.dmm"
 		#include "map_files\debug\multiz.dmm"
 		#include "map_files\debug\runtimestation.dmm"
 		// DARKPACK EDIT CHANGE END

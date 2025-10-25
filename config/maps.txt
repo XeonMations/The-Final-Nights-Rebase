@@ -55,6 +55,11 @@ endmap
 	minplayers 40
 endmap
 
+map sanfrancisco
+	votable
+	default
+endmap
+
 # Debug-only maps.
 
 map gateway_test

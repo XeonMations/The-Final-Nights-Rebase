@@ -169,6 +169,28 @@
 	. = ..()
 	fera_silver_damage(target, 5, 1)
 
+
+/obj/item/claymore/longsword/silver
+	name = "Silver Longsword"
+	desc = "A classic weapon of the knight, the longsword is a versatile weapon that can be used for both cutting and thrusting. This one has been made out of silver."
+	color = "#c0c0c0e0"
+	w_class = WEIGHT_CLASS_BULKY
+	force = 30
+	block_chance = 15
+	armour_penetration = 20
+	attack_verb_continuous = list("slashes", "cuts")
+	attack_verb_simple = list("slash", "cut")
+	hitsound = 'sound/items/weapons/rapierhit.ogg'
+
+
+/obj/item/claymore/longsword/silver/afterattack(atom/target, mob/user, list/modifiers, list/attack_modifiers)
+	. = ..()
+	fera_silver_damage(target, 5, 1)
+
+/obj/item/claymore/longsword/silver/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/selling, 25000, "silver longsword", FALSE)
+
 /obj/item/melee/baseball_bat/vamp
 	name = "baseball bat"
 	desc = "There ain't a skull in the league that can withstand a swatter."

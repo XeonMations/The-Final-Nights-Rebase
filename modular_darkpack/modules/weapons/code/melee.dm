@@ -169,7 +169,7 @@
 	. = ..()
 	fera_silver_damage(target, 5, 1)
 
-
+// TFN EDIT START - Purchasable Silver Sword
 /obj/item/claymore/longsword/silver
 	name = "Silver Longsword"
 	desc = "A classic weapon of the knight, the longsword is a versatile weapon that can be used for both cutting and thrusting. This one has been coated in silver."
@@ -188,7 +188,7 @@
 /obj/item/claymore/longsword/silver/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/selling, 40000, "silver longsword", FALSE)
-
+// TFN EDIT END - Purchasable Silver Sword
 /obj/item/melee/baseball_bat/vamp
 	name = "baseball bat"
 	desc = "There ain't a skull in the league that can withstand a swatter."

@@ -20,30 +20,6 @@
 	name = "Pants (Camo, Baggy)"
 	item_path = /obj/item/clothing/under/vampire/pants/camobaggy
 
-/datum/loadout_item/uniform/pants/white
-	name = "Pants (White)"
-	item_path = /obj/item/clothing/under/vampire/pants/white
-
-/datum/loadout_item/uniform/pants/whitebaggy
-	name = "Pants (White, Baggy)"
-	item_path = /obj/item/clothing/under/vampire/pants/whitebaggy
-
-/datum/loadout_item/uniform/pants/red
-	name = "Pants (Red)"
-	item_path = /obj/item/clothing/under/vampire/pants/red
-
-/datum/loadout_item/uniform/pants/redbaggy
-	name = "Pants (Red, Baggy)"
-	item_path = /obj/item/clothing/under/vampire/pants/redbaggy
-
-/datum/loadout_item/uniform/pants/khaki
-	name = "Pants (Khaki)"
-	item_path = /obj/item/clothing/under/vampire/pants/khaki
-
-/datum/loadout_item/uniform/pants/khakibaggy
-	name = "Pants (Khaki, Baggy)"
-	item_path = /obj/item/clothing/under/vampire/pants/khakibaggy
-
 /datum/loadout_item/uniform/pants/black
 	name = "Jeans (Black)"
 	item_path = /obj/item/clothing/under/vampire/pants/black
@@ -68,14 +44,6 @@
 	name = "Jeans (Classic Blue, Baggy)"
 	item_path = /obj/item/clothing/under/vampire/pants/classicbaggy
 
-/datum/loadout_item/uniform/pants/blackpants
-	name = "Pants (Black)"
-	item_path = /obj/item/clothing/under/vampire/pants/blackpants
-
-/datum/loadout_item/uniform/pants/blackpantsbaggy
-	name = "Pants (Black, Baggy)"
-	item_path = /obj/item/clothing/under/vampire/pants/blackpantsbaggy
-
 /datum/loadout_item/uniform/pants/camo
 	name = "Pants (Camo)"
 	item_path = /obj/item/clothing/under/vampire/pants/camo
@@ -95,6 +63,10 @@
 /datum/loadout_item/uniform/pants/ripped_classic
 	name = "Jeans (Classic Blue, Ripped)"
 	item_path = /obj/item/clothing/under/vampire/pants/ripped/classic
+
+/datum/loadout_item/uniform/pants/slacks
+	name = "Slacks"
+	item_path = /obj/item/clothing/under/pants/slacks
 
 /datum/loadout_item/uniform/pants/trackpants_blue
 	name = "Trackpants (Blue)"
@@ -148,9 +120,9 @@
 	name = "Short Shorts (Stonewashed Denim)"
 	item_path = /obj/item/clothing/under/vampire/shorts/mustangjeanshortshort
 
-/datum/loadout_item/uniform/shorts/khaki
-	name = "Shorts (Khaki)"
-	item_path = /obj/item/clothing/under/vampire/shorts/khaki
+/datum/loadout_item/uniform/shorts/genericshorts
+	name = "Shorts"
+	item_path = /obj/item/clothing/under/shorts
 
 /datum/loadout_item/uniform/shorts/denim_skirt
 	name = "Skirt (Short Denim)"
@@ -165,94 +137,6 @@
 	group = "Formalwear"
 	abstract_type = /datum/loadout_item/uniform/formalwear
 
-/datum/loadout_item/uniform/formalwear/greysuit
-    name = "Suit (Grey)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/greysuit
-
-/datum/loadout_item/uniform/formalwear/greysuit_waistcoat
-    name = "Suit (Grey, Waistcoat)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/greysuit_waistcoat
-
-/datum/loadout_item/uniform/formalwear/greyskirt
-    name = "Suit Skirt (Grey)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/greyskirt
-
-/datum/loadout_item/uniform/formalwear/tanshirtsuit
-    name = "Shirt Suit (Tan)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/tanshirtsuit
-
-/datum/loadout_item/uniform/formalwear/tanshirt_waistcoat
-    name = "Shirt Suit (Tan, Waistcoat)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/tanshirt_waistcoat
-
-/datum/loadout_item/uniform/formalwear/blacksuit
-    name = "Suit (Black)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/blacksuit
-
-/datum/loadout_item/uniform/formalwear/blackskirt
-	name = "Suit Skirt (Black)"
-	item_path = /obj/item/clothing/under/vampire/formalwear/blackskirt
-
-/datum/loadout_item/uniform/formalwear/charcoalsuit
-    name = "Suit (Charcoal)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/charcoalsuit
-
-/datum/loadout_item/uniform/formalwear/charcoalskirt
-    name = "Suit Skirt (Charcoal)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/charcoalskirt
-
-/datum/loadout_item/uniform/formalwear/navysuit
-    name = "Suit (Navy)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/navysuit
-
-/datum/loadout_item/uniform/formalwear/navyskirt
-    name = "Suit Skirt (Navy)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/navyskirt
-
-/datum/loadout_item/uniform/formalwear/burgundysuit
-    name = "Suit (Burgundy)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/burgundysuit
-
-/datum/loadout_item/uniform/formalwear/burgundyskirt
-    name = "Suit Skirt (Burgundy)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/burgundyskirt
-
-/datum/loadout_item/uniform/formalwear/bluesuit
-    name = "Suit (Blue)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/bluesuit
-
-/datum/loadout_item/uniform/formalwear/blueskirt
-    name = "Suit Skirt (Blue)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/blueskirt
-
-/datum/loadout_item/uniform/formalwear/checkeredsuit
-    name = "Suit (Checkered)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/checkeredsuit
-
-/datum/loadout_item/uniform/formalwear/checkeredskirt
-    name = "Suit Skirt (Checkered)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/checkeredskirt
-
-/datum/loadout_item/uniform/formalwear/tansuit
-    name = "Suit (Tan)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/tansuit
-
-/datum/loadout_item/uniform/formalwear/tanskirt
-    name = "Suit Skirt (Tan)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/tanskirt
-
-/datum/loadout_item/uniform/formalwear/royalredsuit
-    name = "Suit (Royal Red)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/royalredsuit
-
-/datum/loadout_item/uniform/formalwear/lawyer_purp
-    name = "Suit (Purple Lawyer)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/lawyer_purp
-
-/datum/loadout_item/uniform/formalwear/lawyer_purp_skirt
-    name = "Suit Skirt (Purple Lawyer)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/lawyer_purp_skirt
-
 /datum/loadout_item/uniform/formalwear/redskirt_jacket
     name = "Red Skirt & Jacket"
     item_path = /obj/item/clothing/under/vampire/formalwear/redskirt_jacket
@@ -261,13 +145,53 @@
     name = "Shirt (Novella)"
     item_path = /obj/item/clothing/under/vampire/formalwear/novella
 
-/datum/loadout_item/uniform/formalwear/suspenders
-    name = "Shirt & Suspenders"
-    item_path = /obj/item/clothing/under/vampire/formalwear/suspenders
+/datum/loadout_item/uniform/formalwear/buttondownslacks
+    name = "Button-Down Shirt with Slacks"
+    item_path = /obj/item/clothing/under/costume/buttondown/slacks
 
-/datum/loadout_item/uniform/formalwear/suspenders_fancy
-    name = "Shirt & Suspenders (Fancy)"
-    item_path = /obj/item/clothing/under/vampire/formalwear/suspenders_fancy
+/datum/loadout_item/uniform/formalwear/buttondownskirt
+    name = "Button-Down Shirt with Skirt"
+    item_path = /obj/item/clothing/under/costume/buttondown/skirt
+
+/datum/loadout_item/uniform/formalwear/buttondownshorts
+    name = "Button-Down Shirt with Shorts"
+    item_path = /obj/item/clothing/under/costume/buttondown/shorts
+
+/datum/loadout_item/uniform/formalwear/executivesuit
+    name = "Executive Suit"
+    item_path = /obj/item/clothing/under/suit/black_really
+
+/datum/loadout_item/uniform/formalwear/navysuit
+    name = "Navy Suit"
+    item_path = /obj/item/clothing/under/suit/navy
+
+/datum/loadout_item/uniform/formalwear/burgundysuit
+    name = "Burgundy Suit"
+    item_path = /obj/item/clothing/under/suit/burgundy
+
+/datum/loadout_item/uniform/formalwear/charcoalsuit
+    name = "Charcoal Suit"
+    item_path = /obj/item/clothing/under/suit/charcoal
+
+/datum/loadout_item/uniform/formalwear/checkeredsuit
+    name = "Checkered Suit"
+    item_path = /obj/item/clothing/under/suit/checkered
+
+/datum/loadout_item/uniform/formalwear/whitesuit
+    name = "White Suit"
+    item_path = /obj/item/clothing/under/suit/white
+
+/datum/loadout_item/uniform/formalwear/waiter
+    name = "Waiter's Suit"
+    item_path = /obj/item/clothing/under/suit/waiter
+
+/datum/loadout_item/uniform/formalwear/dutchsuit
+    name = "Dutch Suit"
+    item_path = /obj/item/clothing/under/costume/dutch
+
+/datum/loadout_item/uniform/formalwear/cardiganskirt
+    name = "Cardigan Skirt"
+    item_path = /obj/item/clothing/under/dress/skirt
 
 /datum/loadout_item/uniform/nun
     name = "Nun's Habit"

@@ -485,7 +485,7 @@
 	user.setDir(SOUTH)
 	user.Stun(100)
 	user.forceMove(src.loc)
-	user.visible_message("<B>[user] dances on [src]!</B>")
+	balloon_alert_to_viewers("<B>[user] dances on [src]!</B>") // TFN EDIT - the NPC dancing update
 	animatepole(user)
 	user.layer = layer //set them to the poles layer
 	pole_in_use = FALSE

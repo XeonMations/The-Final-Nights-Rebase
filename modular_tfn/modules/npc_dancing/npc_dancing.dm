@@ -1,9 +1,28 @@
-#define DANCE_DETECTION_RANGE 15
+#define DANCE_DETECTION_RANGE 20
 
 /turf/open/floor/light/colour_cycle
 	var/mob/living/carbon/human/npc/dancer
 	var/npcs_can_dance = TRUE
 	desc = "Funky floor. Alt-click to toggle NPC dancing."
+
+/turf/open/floor/light/colour_cycle/Click(location, control, params)
+	. = ..()
+	if(!istype(usr, /mob/living) || !usr.client)
+		return
+	var/mob/living/L = usr
+	if(L.combat_mode || L.player_dancing)
+		return
+	INVOKE_ASYNC(src, PROC_REF(start_player_dance), L)
+
+/turf/open/floor/light/colour_cycle/proc/start_player_dance(mob/living/dancer)
+	dancer.player_dancing = TRUE
+	dancer.npc_dance(chained = TRUE)
+	if(!do_after(dancer, 30 SECONDS, timed_action_flags = IGNORE_HELD_ITEM, hidden = TRUE))
+		dancer.player_dancing = FALSE
+		dancer.dancing = FALSE
+		animate(dancer, transform = matrix(), time = 1)
+		return
+	dancer.player_dancing = FALSE
 
 /turf/open/floor/light/colour_cycle/click_alt(mob/user)
 	npcs_can_dance = !npcs_can_dance
@@ -11,6 +30,9 @@
 		dancer.leave_dance_floor()
 	to_chat(user, span_notice("NPC dancing on this tile is now [npcs_can_dance ? "enabled" : "disabled"]."))
 	return CLICK_ACTION_SUCCESS
+
+/mob/living
+	var/player_dancing = FALSE
 
 /mob/living/carbon/human/npc
 	var/can_dance = FALSE
@@ -91,11 +113,12 @@
 /mob/living/proc/npc_spin_dirs(original_dir)
 	for(var/spin_dir in list(SOUTH, EAST, NORTH, WEST))
 		setDir(spin_dir)
-		sleep(1)
 	setDir(original_dir)
 
 /mob/living/proc/clear_dance_flag()
 	dancing = FALSE
+	if(player_dancing)
+		npc_dance(chained = TRUE)
 
 /mob/living/carbon/human/npc/clear_dance_flag()
 	. = ..()
@@ -118,12 +141,15 @@
 	return ..()
 
 /mob/living/carbon/human/npc/proc/try_claim_dance_turf()
+	var/list/available = list()
 	for(var/turf/open/floor/light/colour_cycle/T in view(DANCE_DETECTION_RANGE, src))
-		if(T.dancer || !T.npcs_can_dance)
-			continue
-		dance_center = T
-		T.dancer = src
-		return TRUE
-	return FALSE
+		if(!T.dancer && T.npcs_can_dance)
+			available += T
+	if(!length(available))
+		return FALSE
+	var/turf/open/floor/light/colour_cycle/chosen = pick(available)
+	dance_center = chosen
+	chosen.dancer = src
+	return TRUE
 
 #undef DANCE_DETECTION_RANGE

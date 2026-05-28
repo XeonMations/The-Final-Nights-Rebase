@@ -8036,6 +8036,7 @@
 #include "modular_tfn\modules\npc\code\__npc.dm"
 #include "modular_tfn\modules\npc\code\shipment_npcs.dm"
 #include "modular_tfn\modules\npc\code\socialrole_pockets.dm"
+#include "modular_tfn\modules\npc_dancing\npc_dancing.dm"
 #include "modular_tfn\modules\overwatch\code\overwatch.dm"
 #include "modular_tfn\modules\phones\code\phone_subtypes.dm"
 #include "modular_tfn\modules\police_gps\code\police_gps.dm"

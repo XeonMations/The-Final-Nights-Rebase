@@ -12017,8 +12017,10 @@
 /area/vtm/interior/anarch/basement)
 "cVE" = (
 /obj/effect/decal/rugs,
-/obj/item/chair/plastic/darkpack,
-/turf/open/floor/plating/rough,
+/obj/machinery/light/small/red/dim/directional/west,
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
 /area/vtm/interior/setite)
 "cVG" = (
 /turf/open/floor/city/plating_mono,
@@ -17878,6 +17880,7 @@
 /area/vtm/interior)
 "eqI" = (
 /obj/structure/table/wood/poker,
+/obj/item/toy/cards/deck/cardshoe,
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/setite)
 "eqR" = (
@@ -30486,6 +30489,10 @@
 /obj/structure/table/wood,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/giovanni/courtyard)
+"hym" = (
+/obj/effect/decal/rugs,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/setite)
 "hyw" = (
 /obj/structure/railing/wooden_fence{
 	dir = 4
@@ -61420,10 +61427,27 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
 "oWG" = (
-/obj/machinery/vending/cola/pwr_game{
-	pixel_y = 24;
-	density = 0
+/obj/structure/closet,
+/obj/item/toy/cards/deck{
+	pixel_y = 9
 	},
+/obj/item/toy/cards/deck{
+	pixel_y = 3
+	},
+/obj/item/toy/cards/deck{
+	pixel_y = -4
+	},
+/obj/item/toy/cards/deck{
+	pixel_y = -4
+	},
+/obj/item/toy/cards/deck{
+	pixel_y = 3
+	},
+/obj/item/toy/cards/deck{
+	pixel_y = 9
+	},
+/obj/item/toy/cards/deck/cardshoe,
+/obj/item/toy/cards/deck/cardshoe,
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/setite)
 "oWK" = (
@@ -74898,6 +74922,25 @@
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/financialdistrict)
+"snE" = (
+/obj/effect/decal/rugs,
+/obj/structure/table,
+/obj/item/restraints/handcuffs/cable/zipties{
+	pixel_y = 4;
+	pixel_x = -5
+	},
+/obj/item/stack/dollar/rand,
+/obj/item/toy/cards/deck/syndicate{
+	pixel_y = 14
+	},
+/obj/item/melee/baseball_bat/vamp{
+	pixel_y = 6;
+	pixel_x = 5
+	},
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
+/area/vtm/interior/setite)
 "snG" = (
 /obj/structure/rack/tall/store_shelf_metal{
 	dir = 8
@@ -90454,6 +90497,12 @@
 /obj/effect/landmark/npcbeacon,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/ghetto)
+"whS" = (
+/obj/effect/decal/rugs,
+/obj/effect/decal/cleanable/glass,
+/obj/structure/chair/plastic/darkpack,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/setite)
 "whT" = (
 /obj/effect/turf_decal/siding/wideplating/dark,
 /obj/machinery/light/prince/directional/north,
@@ -94104,9 +94153,11 @@
 /area/vtm/interior)
 "xaF" = (
 /obj/effect/decal/rugs,
+/obj/item/chair/plastic/darkpack,
 /obj/effect/decal/cleanable/glass,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/plating/rough,
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
 /area/vtm/interior/setite)
 "xaG" = (
 /obj/item/melee/vamp/brick,
@@ -136420,11 +136471,11 @@ uvs
 uvs
 uvs
 uvs
-uvs
-uvs
-uvs
-uvs
-uvs
+hsK
+hsK
+hsK
+hsK
+hsK
 uvs
 uvs
 uvs
@@ -136624,10 +136675,10 @@ uvs
 uvs
 uvs
 uvs
-uvs
-hsK
-hsK
-hsK
+oNO
+hym
+cVE
+xaF
 hsK
 uvs
 uvs
@@ -136828,9 +136879,9 @@ uvs
 uvs
 uvs
 uvs
-uvs
 oNO
-cVE
+whS
+rLL
 rLL
 hsK
 nPK
@@ -137032,9 +137083,9 @@ uvs
 uvs
 uvs
 uvs
-uvs
 oNO
-xaF
+snE
+rLL
 rLL
 tKB
 pCs
@@ -137236,7 +137287,7 @@ uvs
 uvs
 uvs
 uvs
-uvs
+hsK
 hsK
 hsK
 hsK

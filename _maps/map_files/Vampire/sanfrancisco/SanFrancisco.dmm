@@ -2775,7 +2775,7 @@
 /obj/structure/roadblock/alt{
 	pixel_z = 15
 	},
-/obj/machinery/light/red/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior)
 "aJy" = (
@@ -5704,6 +5704,14 @@
 /obj/structure/hedge,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower/f2)
+"bvI" = (
+/obj/effect/turf_decal/bordur{
+	dir = 4
+	},
+/obj/machinery/light/red/dim/directional/east,
+/obj/effect/spawner/random/occult/artifact,
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm)
 "bvK" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/kitchen/fork{
@@ -12737,10 +12745,12 @@
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/littleitaly)
 "dgj" = (
-/obj/structure/platform/lowwall/painted,
-/obj/effect/spawner/random/occult/artifact,
-/turf/open/floor/plating/rough,
-/area/vtm/interior)
+/obj/effect/turf_decal/bordur{
+	dir = 4
+	},
+/obj/machinery/light/red/dim/directional/east,
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm)
 "dgk" = (
 /obj/effect/turf_decal/bordur/corner,
 /turf/open/floor/plating/sidewalk,
@@ -29959,7 +29969,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/machinery/light/floor,
+/obj/machinery/light/floor/burned,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
 "hsv" = (
@@ -30726,6 +30736,7 @@
 	pixel_y = 5;
 	pixel_x = -10
 	},
+/obj/machinery/light/red/dim/directional/east,
 /turf/open/floor/plating/roofwalk,
 /area/vtm)
 "hBL" = (
@@ -31894,13 +31905,13 @@
 /turf/open/floor/city/factory,
 /area/vtm/interior/church/staff)
 "hRc" = (
-/obj/machinery/light/red/directional/east,
 /obj/effect/decal/cleanable/trash{
 	icon_state = "trash5"
 	},
 /obj/effect/decal/cleanable/trash{
 	icon_state = "trash30"
 	},
+/obj/machinery/light/directional/east,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior)
 "hRf" = (
@@ -50899,7 +50910,7 @@
 /obj/structure/roadblock/alt{
 	pixel_z = 15
 	},
-/obj/machinery/light/red/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior)
 "mxy" = (
@@ -62948,11 +62959,11 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior)
 "poW" = (
-/obj/machinery/light/red/directional/west,
 /mob/living/carbon/human/npc/guard,
 /obj/structure/chair/plastic/darkpack{
 	dir = 4
 	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior)
 "ppe" = (
@@ -96185,6 +96196,10 @@
 /obj/item/storage/fancy/candle_box,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church)
+"xBS" = (
+/obj/machinery/light/red/dim/directional/east,
+/turf/open/floor/plating/roofwalk,
+/area/vtm)
 "xBW" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor6-old"
@@ -221052,7 +221067,7 @@ ycd
 ycd
 ycd
 ycd
-dgj
+nHY
 vjr
 veZ
 veZ
@@ -261890,7 +261905,7 @@ vdU
 xEp
 xuz
 xEp
-xEp
+fCr
 xuz
 wmS
 mjT
@@ -262682,7 +262697,7 @@ dTE
 xnY
 fJS
 xEp
-xEp
+xBS
 xEp
 xEp
 xEp
@@ -263286,7 +263301,7 @@ xEp
 xEp
 oZO
 unh
-nMo
+bvI
 ouN
 bRA
 gaq
@@ -263303,23 +263318,23 @@ pcC
 vhf
 nMo
 nMo
+dgj
 nMo
 nMo
 nMo
 nMo
 nMo
+dgj
 nMo
 nMo
 nMo
-nMo
-nMo
-nMo
+dgj
 aIH
 nMo
 nMo
 nMo
 nMo
-nMo
+dgj
 rNs
 bRA
 mjT

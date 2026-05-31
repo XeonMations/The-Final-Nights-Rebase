@@ -159,6 +159,7 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/siding/grey/end,
+/obj/machinery/light/floor,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/setite)
 "abL" = (
@@ -5604,8 +5605,8 @@
 	},
 /area/vtm/interior/evergreen/caern)
 "but" = (
-/turf/open/floor/iron/stairs/medium{
-	dir = 4
+/turf/open/floor/iron/stairs/black/right{
+	dir = 8
 	},
 /area/vtm)
 "buw" = (
@@ -5934,7 +5935,7 @@
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
 	},
-/turf/open/floor/iron/stairs/medium,
+/turf/open/floor/iron/stairs/black/medium,
 /area/vtm)
 "bxM" = (
 /obj/effect/turf_decal/bordur/corner,
@@ -6092,6 +6093,9 @@
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/strip)
+"bzv" = (
+/turf/open/floor/iron/stairs/left,
+/area/vtm/interior/setite)
 "bzw" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -6198,8 +6202,8 @@
 /obj/effect/decal/wallpaper/stone/low/tilt{
 	dir = 4
 	},
-/turf/open/floor/iron/stairs/medium{
-	dir = 4
+/turf/open/floor/iron/stairs/black/left{
+	dir = 8
 	},
 /area/vtm)
 "bAZ" = (
@@ -18492,11 +18496,10 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/unionsquare)
 "ezK" = (
-/obj/effect/turf_decal/siding/grey{
-	dir = 4
+/turf/open/floor/iron/stairs/left{
+	dir = 1
 	},
-/turf/open/floor/plating/roofwalk,
-/area/vtm)
+/area/vtm/interior)
 "ezT" = (
 /obj/structure/railing/wooden_fence,
 /obj/structure/rack/clothing_hanger,
@@ -26826,6 +26829,11 @@
 	},
 /turf/open/floor/plating/roofwalk,
 /area/vtm)
+"gCn" = (
+/turf/open/floor/iron/stairs/black/medium{
+	dir = 8
+	},
+/area/vtm)
 "gCo" = (
 /obj/structure/toilet{
 	pixel_y = 16
@@ -30210,6 +30218,9 @@
 /obj/effect/decal/wallpaper/stone,
 /turf/closed/wall/vampwall/brick_old,
 /area/vtm/outside/fishermanswharf/lower)
+"huX" = (
+/turf/open/floor/iron/stairs/right,
+/area/vtm/interior/setite)
 "hve" = (
 /obj/structure/table/wood,
 /turf/open/floor/plating/concrete,
@@ -36899,6 +36910,13 @@
 /obj/structure/flora/bush/flowers_br/style_random,
 /turf/open/floor/city/church,
 /area/vtm/interior/giovanni)
+"jcs" = (
+/obj/effect/decal/wallpaper/stone/low{
+	pixel_y = 24
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/wood/ornate,
+/area/vtm/interior/setite)
 "jcx" = (
 /obj/machinery/sprinkler,
 /turf/open/floor/city/bacotell,
@@ -41236,6 +41254,15 @@
 /obj/effect/turf_decal/bordur/corner,
 /turf/open/floor/plating/roofwalk,
 /area/vtm/interior/jazzclub)
+"kfz" = (
+/obj/effect/turf_decal/siding/wood/light{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/openspace,
+/area/vtm/interior/setite)
 "kfD" = (
 /obj/structure/railing{
 	dir = 8
@@ -47071,7 +47098,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/floor/iron/stairs/medium{
+/turf/open/floor/iron/stairs/right{
 	dir = 1
 	},
 /area/vtm/interior/setite)
@@ -62941,6 +62968,7 @@
 /obj/effect/turf_decal/siding/wood/light{
 	dir = 1
 	},
+/obj/machinery/light/floor,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/setite)
 "pot" = (
@@ -63365,6 +63393,14 @@
 /obj/structure/roadsign/speedlimit40,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/unionsquare)
+"ptr" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/iron/stairs/left{
+	dir = 1
+	},
+/area/vtm/interior/setite)
 "pts" = (
 /obj/effect/turf_decal/siding/wideplating/green{
 	dir = 8
@@ -70405,7 +70441,6 @@
 "rgh" = (
 /obj/structure/sink/basin/directional/south,
 /obj/structure/table/countertop/red,
-/obj/structure/mirror/directional/south,
 /turf/open/floor/city/factory,
 /area/vtm/interior/setite)
 "rgn" = (
@@ -74478,14 +74513,14 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/tzimisce_manor)
 "sgG" = (
-/obj/effect/turf_decal/siding/grey{
-	dir = 4
+/obj/structure/railing{
+	dir = 5
 	},
-/obj/effect/decal/wallpaper/stone/low{
-	pixel_y = 24
-	},
-/turf/open/floor/plating/roofwalk,
-/area/vtm)
+/obj/structure/hedge,
+/obj/effect/turf_decal/siding/grey/end,
+/obj/machinery/light/floor,
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/setite)
 "sgJ" = (
 /obj/structure/guncase{
 	anchored = 1
@@ -179924,7 +179959,7 @@ veZ
 veZ
 veZ
 veZ
-geY
+ezK
 yhj
 yhj
 dPc
@@ -180353,7 +180388,7 @@ xaL
 pEN
 udG
 udG
-uWL
+ptr
 nGi
 gyg
 bVu
@@ -220330,11 +220365,11 @@ pjA
 pjA
 pjA
 hsK
-pjA
-pjA
 hsK
 pjA
 pjA
+pjA
+hsK
 hsK
 hsK
 dXA
@@ -220534,18 +220569,18 @@ gyg
 jJY
 tNT
 ixt
-cBU
+kfz
+qvB
 qvB
 cxS
-qvB
-qvB
+sgG
 xNr
 qbB
 jNq
 jNq
 jNq
 tHN
-nPK
+hsK
 ucj
 xEp
 xEp
@@ -220749,7 +220784,7 @@ udr
 udr
 cDi
 eGZ
-nPK
+hsK
 ucj
 xEp
 xEp
@@ -220936,7 +220971,7 @@ efV
 bnh
 bnh
 ifR
-qBx
+jcs
 qPh
 vlt
 gyg
@@ -221139,7 +221174,7 @@ bTZ
 gDg
 bnh
 bnh
-kqH
+bzv
 ajc
 jFu
 eqI
@@ -221547,7 +221582,7 @@ hRc
 xNr
 snI
 bnh
-kqH
+huX
 hwx
 drN
 gyg
@@ -221752,7 +221787,7 @@ xNr
 bnh
 bnh
 jCU
-qBx
+jcs
 lDn
 fSp
 drN
@@ -262754,9 +262789,9 @@ xEp
 xEp
 ttS
 hBK
-ezK
-ezK
-ezK
+xEp
+xEp
+xEp
 qri
 jIU
 bOj
@@ -262764,9 +262799,9 @@ xUJ
 jIU
 bOj
 hFR
-sgG
-ezK
-ezK
+fJS
+xEp
+xEp
 qri
 rUV
 ssj
@@ -262959,7 +262994,7 @@ dhC
 ycd
 ycd
 bAT
-but
+gCn
 but
 qri
 rTq
@@ -262969,7 +263004,7 @@ rTq
 pNF
 hFR
 bAT
-but
+gCn
 but
 qri
 aor

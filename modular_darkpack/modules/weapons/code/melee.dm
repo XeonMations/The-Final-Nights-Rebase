@@ -183,12 +183,15 @@
 
 /obj/item/claymore/longsword/silver/afterattack(atom/target, mob/user, list/modifiers, list/attack_modifiers)
 	. = ..()
-	fera_silver_damage(target, 1, 1)
+	// Check if victim is a werewolf, if so, apply silver damage. Otherwise, do normal damage.
+	if(get_werewolf_splat(target))
+		fera_silver_damage(target, 1, 1)
 
 /obj/item/claymore/longsword/silver/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/selling, 40000, "silver longsword", FALSE)
 // TFN EDIT END - Purchasable Silver Sword
+
 /obj/item/melee/baseball_bat/vamp
 	name = "baseball bat"
 	desc = "There ain't a skull in the league that can withstand a swatter."

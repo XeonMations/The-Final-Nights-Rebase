@@ -154,6 +154,16 @@
 	label_class = "pentex"
 	ui_color = COLOR_CORP_ENDRON
 
+// TFN EDIT ADD START - More Sabbat Roles
+/datum/job_department/red_news
+	department_name = DEPARTMENT_RED_NEWS
+	department_bitflags = DEPARTMENT_BITFLAG_RED_NEWS
+	display_order = 1
+	ui_color = COLOR_CORP_OMNI_TV
+	label_class = "true_sabbat"
+	ui_color = "#3d0404ff"
+// TFN EDIT ADD END - More Sabbat Roles
+
 /datum/job_department/society_of_leopold
 	department_name = DEPARTMENT_SOCIETY_OF_LEOPOLD
 	department_bitflags = DEPARTMENT_BITFLAG_SOCIETY_OF_LEOPOLD

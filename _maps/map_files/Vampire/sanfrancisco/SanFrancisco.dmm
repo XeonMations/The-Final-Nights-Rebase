@@ -3573,6 +3573,11 @@
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
+"aVn" = (
+/obj/structure/chair/office/darkpack/green,
+/obj/effect/landmark/start/darkpack/rednews,
+/turf/open/floor/wood/smooth,
+/area/vtm/interior)
 "aVp" = (
 /obj/structure/hedge,
 /obj/structure/flora/bush/flowers_yw/style_random,
@@ -8413,6 +8418,7 @@
 	dir = 1
 	},
 /obj/effect/decal/rugs,
+/obj/machinery/computer/security/telescreen/entertainment/directional/north,
 /turf/open/floor/city/toilet,
 /area/vtm/interior)
 "cdw" = (
@@ -8701,13 +8707,6 @@
 	},
 /turf/open/floor/city/plating,
 /area/vtm/interior/strip)
-"cgt" = (
-/obj/structure/chair/office/darkpack/green,
-/obj/effect/turf_decal/siding/wood/light{
-	dir = 8
-	},
-/turf/open/floor/wood/smooth,
-/area/vtm/interior)
 "cgu" = (
 /obj/effect/decal/pallet,
 /obj/structure/bed/maint{
@@ -8990,6 +8989,7 @@
 /obj/structure/chair/darkpack/blue{
 	dir = 8
 	},
+/obj/effect/landmark/start/darkpack/rednews,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
 "cjr" = (
@@ -15014,6 +15014,7 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/unlock,
+/obj/effect/mapping_helpers/door/access/rednews,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
 "dLS" = (
@@ -36114,6 +36115,13 @@
 /obj/effect/landmark/start/darkpack/law_enforcement/fbi,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police/fed)
+"iXp" = (
+/obj/structure/chair/office/darkpack/green{
+	dir = 8
+	},
+/obj/effect/landmark/start/darkpack/rednews,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior)
 "iXD" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
@@ -36856,7 +36864,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/structure/vampdoor/reinf,
 /obj/effect/mapping_helpers/door/lock,
-/obj/effect/mapping_helpers/door/access/npc,
+/obj/effect/mapping_helpers/door/access/rednews,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
 "jgz" = (
@@ -37913,6 +37921,7 @@
 /obj/structure/chair/darkpack/blue{
 	dir = 4
 	},
+/obj/effect/landmark/start/darkpack/rednews,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
 "jsP" = (
@@ -46339,6 +46348,7 @@
 	},
 /obj/effect/decal/rugs,
 /obj/machinery/sprinkler,
+/obj/effect/landmark/start/darkpack/rednews,
 /turf/open/floor/city/toilet,
 /area/vtm/interior)
 "lyR" = (
@@ -52466,13 +52476,6 @@
 	pixel_y = 9
 	},
 /turf/open/floor/city/bacotell,
-/area/vtm/interior)
-"mYG" = (
-/obj/structure/chair/office/darkpack/green,
-/obj/effect/turf_decal/siding/wood/light{
-	dir = 4
-	},
-/turf/open/floor/wood/smooth,
 /area/vtm/interior)
 "mYR" = (
 /obj/structure/chair/comfy/shuttle,
@@ -64486,6 +64489,12 @@
 /obj/item/pen{
 	pixel_y = 8
 	},
+/obj/machinery/greenscreen_camera{
+	dir = 1;
+	pixel_y = -15;
+	name = "news-caster";
+	desc = "A camera that can be used to display whomever is in front of it across all the city."
+	},
 /turf/open/floor/wood/smooth,
 /area/vtm/interior)
 "pTm" = (
@@ -75716,7 +75725,7 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/lock,
-/obj/effect/mapping_helpers/door/access/npc,
+/obj/effect/mapping_helpers/door/access/rednews,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
 "sId" = (
@@ -178696,7 +178705,7 @@ iwl
 iEh
 iEh
 bFq
-cgt
+aiK
 iQC
 eaz
 fcQ
@@ -178900,7 +178909,7 @@ iwl
 iEh
 iEh
 bFq
-pFa
+aVn
 pTj
 vZI
 nQg
@@ -179104,7 +179113,7 @@ iwl
 lxz
 iEh
 bFq
-mYG
+mBS
 cwo
 eaz
 fcQ
@@ -179314,7 +179323,7 @@ oZt
 pqR
 vam
 rEz
-knc
+iXp
 baE
 baE
 baE

@@ -1093,7 +1093,7 @@ GLOBAL_LIST_EMPTY_TYPED(greenscreen_displays, /obj/effect/abstract/greenscreen_d
 /// Sends a signal to all relevant status displays to update their greenscreen
 /obj/machinery/greenscreen_camera/proc/update_status_displays(list/signal_args)
 	// update the display on all status displays
-	var/datum/radio_frequency/frequency = SSradio.return_frequency(FREQ_STATUS_DISPLAYS)
+	var/datum/radio_frequency/frequency = SSradio.return_frequency(FREQ_STATUS_	DISPLAYS)
 	frequency?.post_signal(src, new /datum/signal(signal_args))
 
 /obj/machinery/greenscreen_camera/proc/deactivate_feed()

@@ -183,7 +183,6 @@
 
 /obj/item/claymore/longsword/silver/afterattack(atom/target, mob/user, list/modifiers, list/attack_modifiers)
 	. = ..()
-	// Check if victim is a werewolf, if so, apply silver damage. Otherwise, do normal damage.
 	// TFN EDIT START - silver sword only gives agg damage to werewolves
 	if(get_werewolf_splat(target))
 		fera_silver_damage(target, 1, 1)

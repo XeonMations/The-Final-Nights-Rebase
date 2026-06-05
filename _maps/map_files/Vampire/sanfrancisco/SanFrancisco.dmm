@@ -30902,6 +30902,7 @@
 "hHt" = (
 /obj/structure/chair/stool/bar/darkpack/black,
 /obj/machinery/light/prince/directional/north,
+/obj/effect/landmark/start/darkpack/setite/ward,
 /turf/open/floor/city/plating,
 /area/vtm/interior/setite)
 "hHy" = (
@@ -60109,6 +60110,7 @@
 /area/vtm/interior/museum)
 "oKM" = (
 /obj/structure/chair/stool/bar/darkpack/black,
+/obj/effect/landmark/start/darkpack/setite/ward,
 /turf/open/floor/city/plating,
 /area/vtm/interior/setite)
 "oKN" = (
@@ -80224,7 +80226,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
 "tFH" = (
-/obj/effect/landmark/start/darkpack/setite/faithful,
+/obj/effect/landmark/start/darkpack/setite/ward,
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/setite)
 "tFK" = (

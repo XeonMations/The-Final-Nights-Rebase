@@ -52689,15 +52689,6 @@
 "mWO" = (
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/strip)
-"mWR" = (
-/obj/transfer_point_vamp{
-	id = "garage1"
-	},
-/obj/transfer_point_vamp{
-	id = "garage1"
-	},
-/turf/open/floor/plating/asphalt,
-/area/vtm/interior)
 "mXf" = (
 /obj/transfer_point_vamp/umbral/exit{
 	id = 606
@@ -93764,6 +93755,9 @@
 /obj/structure/table,
 /turf/open/floor/carpet/black,
 /area/vtm/interior/nosferatu_office)
+"wYb" = (
+/turf/closed/wall/vampwall/rock,
+/area/vtm/interior/setite)
 "wYd" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -137483,7 +137477,7 @@ dCe
 dCe
 dCe
 dCe
-uvs
+wYb
 nPK
 fWM
 lFr
@@ -137704,7 +137698,7 @@ rON
 pXJ
 hsK
 hsK
-uvs
+ndB
 lIq
 mfk
 gjV
@@ -180302,7 +180296,7 @@ jdZ
 ylQ
 mnX
 ycd
-mWR
+nAz
 maC
 kEF
 ycd

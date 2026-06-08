@@ -14,7 +14,7 @@
 		"african2")
 
 	min_age = 18
-	max_age = 40 // TFN EDIT - the NPC dancing update
+	max_age = 40 // TFN EDIT - the NPC dancing update - Original: max_age = 85
 	preferred_gender = MALE
 	male_names = null
 	surnames = null

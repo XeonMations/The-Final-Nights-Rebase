@@ -6630,8 +6630,8 @@
 	},
 /obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/lock,
-/obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/effect/mapping_helpers/door/access/federal,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /turf/open/floor/city/toilet,
 /area/vtm/interior/police/fed)
 "bHK" = (
@@ -9522,6 +9522,21 @@
 	},
 /turf/open/floor/carpet/black,
 /area/vtm/interior/nosferatu_office)
+"cpv" = (
+/obj/structure/closet,
+/obj/item/gun/ballistic/automatic/darkpack/ar15,
+/obj/item/gun/ballistic/automatic/darkpack/ar15,
+/obj/item/gun/ballistic/automatic/darkpack/ar15,
+/obj/item/storage/fancy/hardcase/mag_556,
+/obj/item/storage/fancy/hardcase/mag_556,
+/obj/item/storage/fancy/hardcase/mag_556,
+/obj/item/ammo_box/darkpack/c556,
+/obj/item/ammo_box/darkpack/c556,
+/obj/item/ammo_box/darkpack/c556,
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
+/area/vtm/interior/police/fed)
 "cpC" = (
 /obj/structure/chair/wood/darkpack{
 	dir = 4
@@ -15972,6 +15987,15 @@
 /obj/effect/decal/support,
 /turf/open/floor/plating/roofwalk,
 /area/vtm)
+"dWL" = (
+/obj/effect/mapping_helpers/door/lock,
+/obj/structure/vampdoor/reinf{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/door/lock_difficulty/ten,
+/obj/effect/mapping_helpers/door/access/federal,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police/fed)
 "dWN" = (
 /obj/effect/turf_decal/bordur,
 /obj/structure/lamppost/one{
@@ -25641,10 +25665,13 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/baywalk)
 "gsD" = (
-/obj/structure/chair/plastic/darkpack{
-	dir = 8
+/obj/structure/closet,
+/obj/item/gun/ballistic/automatic/darkpack/sniper,
+/obj/item/ammo_box/darkpack/c50,
+/obj/item/binoculars,
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
 	},
-/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police/fed)
 "gsF" = (
 /obj/item/smartphone/payphone{
@@ -35096,8 +35123,8 @@
 "iJj" = (
 /obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/lock,
-/obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/effect/mapping_helpers/door/access/federal,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police/fed)
 "iJl" = (
@@ -36278,6 +36305,33 @@
 "iZI" = (
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/chantry/basement)
+"iZS" = (
+/obj/structure/closet/crate,
+/obj/item/storage/belt/security/police,
+/obj/item/storage/belt/security/police,
+/obj/item/storage/belt/security/police,
+/obj/item/storage/box/handcuffs,
+/obj/item/clothing/gloves/tackler/combat/insulated,
+/obj/item/clothing/gloves/tackler/combat/insulated,
+/obj/item/clothing/gloves/tackler/combat/insulated,
+/obj/item/clothing/head/vampire/helmet,
+/obj/item/clothing/head/vampire/helmet,
+/obj/item/clothing/head/vampire/helmet,
+/obj/item/reagent_containers/spray/pepper,
+/obj/item/reagent_containers/spray/pepper,
+/obj/item/reagent_containers/spray/pepper,
+/obj/item/gun/energy/taser/darkpack,
+/obj/item/gun/energy/taser/darkpack,
+/obj/item/gun/energy/taser/darkpack,
+/obj/item/melee/baton/vamp,
+/obj/item/melee/baton/vamp,
+/obj/item/melee/baton/vamp,
+/obj/item/storage/box/teargas,
+/obj/item/storage/box/flashbangs,
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
+/area/vtm/interior/police/fed)
 "iZX" = (
 /obj/structure/table/glass,
 /obj/machinery/light/directional/south,
@@ -50733,8 +50787,8 @@
 	dir = 1
 	},
 /obj/effect/mapping_helpers/door/lock,
-/obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/effect/mapping_helpers/door/access/federal,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police/fed)
 "mBA" = (
@@ -57293,6 +57347,21 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/bianchiBank)
+"ofH" = (
+/obj/structure/closet,
+/obj/item/gun/ballistic/automatic/darkpack/mp5,
+/obj/item/gun/ballistic/automatic/darkpack/mp5,
+/obj/item/gun/ballistic/automatic/darkpack/mp5,
+/obj/item/storage/fancy/hardcase/mag_mp5,
+/obj/item/storage/fancy/hardcase/mag_mp5,
+/obj/item/storage/fancy/hardcase/mag_mp5,
+/obj/item/ammo_box/darkpack/c9mm,
+/obj/item/ammo_box/darkpack/c9mm,
+/obj/item/ammo_box/darkpack/c9mm,
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
+/area/vtm/interior/police/fed)
 "ofJ" = (
 /obj/effect/decal/pallet,
 /obj/effect/turf_decal/bordur{
@@ -77818,6 +77887,24 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/city/factory,
 /area/vtm/interior/police)
+"thK" = (
+/obj/structure/closet,
+/obj/item/gun/ballistic/automatic/darkpack/autoshotgun,
+/obj/item/gun/ballistic/automatic/darkpack/autoshotgun,
+/obj/item/gun/ballistic/automatic/darkpack/autoshotgun,
+/obj/item/ammo_box/magazine/darkpackautoshot,
+/obj/item/ammo_box/magazine/darkpackautoshot,
+/obj/item/ammo_box/magazine/darkpackautoshot,
+/obj/item/ammo_box/magazine/darkpackautoshot,
+/obj/item/ammo_box/magazine/darkpackautoshot,
+/obj/item/ammo_box/magazine/darkpackautoshot,
+/obj/item/ammo_box/darkpack/c12g/buck,
+/obj/item/ammo_box/darkpack/c12g/buck,
+/obj/item/ammo_box/darkpack/c12g/buck,
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
+/area/vtm/interior/police/fed)
 "thM" = (
 /obj/structure/table/wood,
 /obj/structure/sink/basin/directional/north,
@@ -82713,8 +82800,8 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/lock,
-/obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/effect/mapping_helpers/door/access/federal,
+/obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /turf/open/floor/plating/concrete{
 	color = "#9c8064"
 	},
@@ -89694,6 +89781,9 @@
 /area/vtm/interior/endron_facility/plant)
 "wiz" = (
 /obj/machinery/light/small/directional/south,
+/obj/structure/chair/plastic/darkpack{
+	dir = 8
+	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police/fed)
 "wiD" = (
@@ -92378,6 +92468,7 @@
 	pixel_y = 7;
 	pixel_x = -20
 	},
+/obj/machinery/recharger,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police/fed)
 "wNV" = (
@@ -126050,7 +126141,7 @@ xbI
 wLs
 xql
 bqd
-gsD
+aTY
 wiz
 xql
 qhk
@@ -126254,7 +126345,7 @@ vaO
 vaO
 vaO
 vaO
-vaO
+dWL
 vaO
 vaO
 vaO
@@ -126455,11 +126546,11 @@ uvs
 uvs
 uvs
 uvs
-uvs
-uvs
-uvs
-uvs
-uvs
+vaO
+cpv
+fWp
+fWp
+vaO
 uvs
 uvs
 uvs
@@ -126659,11 +126750,11 @@ uvs
 uvs
 uvs
 uvs
-uvs
-uvs
-uvs
-uvs
-uvs
+vaO
+thK
+fWp
+gsD
+vaO
 uvs
 uvs
 uvs
@@ -126863,11 +126954,11 @@ uvs
 uvs
 uvs
 uvs
-uvs
-uvs
-uvs
-uvs
-uvs
+vaO
+ofH
+xbI
+iZS
+vaO
 uvs
 uvs
 uvs
@@ -127067,11 +127158,11 @@ tuX
 tuX
 tuX
 tuX
-tuX
-tuX
-tuX
-tuX
-tuX
+vaO
+vaO
+vaO
+vaO
+vaO
 tuX
 tuX
 tuX

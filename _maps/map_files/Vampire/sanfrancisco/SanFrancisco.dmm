@@ -9524,15 +9524,8 @@
 /area/vtm/interior/nosferatu_office)
 "cpv" = (
 /obj/structure/closet,
-/obj/item/gun/ballistic/automatic/darkpack/ar15,
-/obj/item/gun/ballistic/automatic/darkpack/ar15,
-/obj/item/gun/ballistic/automatic/darkpack/ar15,
-/obj/item/storage/fancy/hardcase/mag_556,
-/obj/item/storage/fancy/hardcase/mag_556,
-/obj/item/storage/fancy/hardcase/mag_556,
-/obj/item/ammo_box/darkpack/c556,
-/obj/item/ammo_box/darkpack/c556,
-/obj/item/ammo_box/darkpack/c556,
+/obj/item/gun/ballistic/shotgun/vampire,
+/obj/item/gun/ballistic/shotgun/vampire,
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
@@ -25665,10 +25658,8 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/baywalk)
 "gsD" = (
-/obj/structure/closet,
-/obj/item/gun/ballistic/automatic/darkpack/sniper,
-/obj/item/ammo_box/darkpack/c50,
-/obj/item/binoculars,
+/obj/structure/table/wood,
+/obj/structure/reagent_dispensers/wall/peppertank,
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
@@ -36319,11 +36310,8 @@
 /obj/item/clothing/head/vampire/helmet,
 /obj/item/reagent_containers/spray/pepper,
 /obj/item/reagent_containers/spray/pepper,
-/obj/item/reagent_containers/spray/pepper,
 /obj/item/gun/energy/taser/darkpack,
 /obj/item/gun/energy/taser/darkpack,
-/obj/item/gun/energy/taser/darkpack,
-/obj/item/melee/baton/vamp,
 /obj/item/melee/baton/vamp,
 /obj/item/melee/baton/vamp,
 /obj/item/storage/box/teargas,
@@ -57349,15 +57337,8 @@
 /area/vtm/interior/bianchiBank)
 "ofH" = (
 /obj/structure/closet,
-/obj/item/gun/ballistic/automatic/darkpack/mp5,
-/obj/item/gun/ballistic/automatic/darkpack/mp5,
-/obj/item/gun/ballistic/automatic/darkpack/mp5,
-/obj/item/storage/fancy/hardcase/mag_mp5,
-/obj/item/storage/fancy/hardcase/mag_mp5,
-/obj/item/storage/fancy/hardcase/mag_mp5,
-/obj/item/ammo_box/darkpack/c9mm,
-/obj/item/ammo_box/darkpack/c9mm,
-/obj/item/ammo_box/darkpack/c9mm,
+/obj/item/ammo_box/darkpack/c45acp/silver,
+/obj/item/ammo_box/darkpack/c45acp/silver,
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
@@ -77889,18 +77870,8 @@
 /area/vtm/interior/police)
 "thK" = (
 /obj/structure/closet,
-/obj/item/gun/ballistic/automatic/darkpack/autoshotgun,
-/obj/item/gun/ballistic/automatic/darkpack/autoshotgun,
-/obj/item/gun/ballistic/automatic/darkpack/autoshotgun,
-/obj/item/ammo_box/magazine/darkpackautoshot,
-/obj/item/ammo_box/magazine/darkpackautoshot,
-/obj/item/ammo_box/magazine/darkpackautoshot,
-/obj/item/ammo_box/magazine/darkpackautoshot,
-/obj/item/ammo_box/magazine/darkpackautoshot,
-/obj/item/ammo_box/magazine/darkpackautoshot,
-/obj/item/ammo_box/darkpack/c12g/buck,
-/obj/item/ammo_box/darkpack/c12g/buck,
-/obj/item/ammo_box/darkpack/c12g/buck,
+/obj/item/vampire_stake,
+/obj/item/vampire_stake,
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},

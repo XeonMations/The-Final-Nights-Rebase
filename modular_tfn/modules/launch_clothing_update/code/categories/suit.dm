@@ -4,10 +4,6 @@
 	group = "Jackets"
 	abstract_type = /datum/loadout_item/suit/jacket
 
-/datum/loadout_item/suit/jacket/stylish
-	name = "Stylish Jacket"
-	item_path = /obj/item/clothing/suit/vampire/jacket3
-
 /datum/loadout_item/suit/jacket/leather_cut
 	name = "Leather Jacket (Black, Cut Sleeves)"
 	item_path = /obj/item/clothing/suit/vampire/jacket1_cut
@@ -32,9 +28,25 @@
 	name = "Detective Jacket"
 	item_path = /obj/item/clothing/suit/vampire/detective/jacket
 
-/datum/loadout_item/suit/jacket/letterman
-	name = "Letterman Jacket"
-	item_path = /obj/item/clothing/suit/vampire/letterman
+/datum/loadout_item/suit/jacket/lettermanblue
+	name = "Blue Letterman Jacket"
+	item_path = /obj/item/clothing/suit/jacket/letterman_nanotrasen
+
+/datum/loadout_item/suit/jacket/lettermanbrown
+	name = "Brown Letterman Jacket"
+	item_path = /obj/item/clothing/suit/jacket/letterman
+
+/datum/loadout_item/suit/jacket/fancyfurcoat
+	name = "Fancy Fur Coat"
+	item_path = /obj/item/clothing/suit/jacket/fancy
+
+/datum/loadout_item/suit/jacket/trenchcoatalt
+	name = "Trenchcoat (Alt)"
+	item_path = /obj/item/clothing/suit/toggle/jacket/trenchcoat
+
+/datum/loadout_item/suit/jacket/oversizedjacket
+	name = "Oversized Jacket"
+	item_path = /obj/item/clothing/suit/jacket/oversized
 
 // Military Jackets
 /datum/loadout_item/suit/jacket/military_white
@@ -66,15 +78,6 @@
 	name = "Leather Jacket (Sleeveless)"
 	item_path = /obj/item/clothing/suit/vampire/leather_jacket_sleeveless
 
-// Brown Jackets
-/datum/loadout_item/suit/jacket/brown_jacket
-	name = "Brown Jacket"
-	item_path = /obj/item/clothing/suit/vampire/brown_jacket
-
-/datum/loadout_item/suit/jacket/brown_jacket_sleeveless
-	name = "Brown Jacket (Sleeveless)"
-	item_path = /obj/item/clothing/suit/vampire/brown_jacket_sleeveless
-
 // Bombers
 /datum/loadout_item/suit/jacket/bomber
 	name = "Bomber Jacket"
@@ -83,35 +86,6 @@
 /datum/loadout_item/suit/jacket/bomber/retro
 	name = "Bomber Jacket (Retro)"
 	item_path = /obj/item/clothing/suit/vampire/bomber/retro
-
-// Hoodies
-/datum/loadout_item/suit/hoodie
-	group = "Hoodies"
-	abstract_type = /datum/loadout_item/suit/hoodie
-
-/datum/loadout_item/suit/hoodie/grey
-	name = "Hoodie (Grey)"
-	item_path = /obj/item/clothing/suit/vampire/hoodie/grey
-
-/datum/loadout_item/suit/hoodie/black
-	name = "Hoodie (Black)"
-	item_path = /obj/item/clothing/suit/vampire/hoodie/black
-
-/datum/loadout_item/suit/hoodie/red
-	name = "Hoodie (Red)"
-	item_path = /obj/item/clothing/suit/vampire/hoodie/red
-
-/datum/loadout_item/suit/hoodie/blue
-	name = "Hoodie (Blue)"
-	item_path = /obj/item/clothing/suit/vampire/hoodie/blue
-
-/datum/loadout_item/suit/hoodie/orange
-	name = "Hoodie (Orange)"
-	item_path = /obj/item/clothing/suit/vampire/hoodie/orange
-
-/datum/loadout_item/suit/hoodie/pink
-	name = "Hoodie (Pink)"
-	item_path = /obj/item/clothing/suit/vampire/hoodie/pink
 
 // Puffer
 /datum/loadout_item/suit/jacket/pufferjacket
@@ -211,37 +185,17 @@
 	group = "Suit Jackets"
 	abstract_type = /datum/loadout_item/suit/suitjacket
 
-/datum/loadout_item/suit/suitjacket/blue
-	name = "Suit Jacket (Blue)"
-	item_path = /obj/item/clothing/suit/vampire/suitjacket/blue
+/datum/loadout_item/suit/suitjacket/genericsuitjacket
+	name = "Suit Jacket"
+	item_path = /obj/item/clothing/suit/toggle/lawyer/greyscale
 
-/datum/loadout_item/suit/suitjacket/purple
-	name = "Suit Jacket (Purple)"
-	item_path = /obj/item/clothing/suit/vampire/suitjacket/purple
+/datum/loadout_item/suit/suitjacket/sweaterjacket
+	name = "Sweater Jacket"
+	item_path = /obj/item/clothing/suit/toggle/jacket/sweater
 
-/datum/loadout_item/suit/suitjacket/black
-	name = "Suit Jacket (Black)"
-	item_path = /obj/item/clothing/suit/vampire/suitjacket/black
-
-/datum/loadout_item/suit/suitjacket/tan
-	name = "Suit Jacket (Tan)"
-	item_path = /obj/item/clothing/suit/vampire/suitjacket/tan
-
-/datum/loadout_item/suit/suitjacket/charcoal
-	name = "Suit Jacket (Charcoal)"
-	item_path = /obj/item/clothing/suit/vampire/suitjacket/charcoal
-
-/datum/loadout_item/suit/suitjacket/navy
-	name = "Suit Jacket (Navy)"
-	item_path = /obj/item/clothing/suit/vampire/suitjacket/navy
-
-/datum/loadout_item/suit/suitjacket/burgundy
-	name = "Suit Jacket (Burgundy)"
-	item_path = /obj/item/clothing/suit/vampire/suitjacket/burgundy
-
-/datum/loadout_item/suit/suitjacket/checkered
-	name = "Suit Jacket (Checkered)"
-	item_path = /obj/item/clothing/suit/vampire/suitjacket/checkered
+/datum/loadout_item/suit/suitjacket/blazerjacket
+	name = "Blazer Jacket"
+	item_path = /obj/item/clothing/suit/jacket/blazer
 
 // Shawls
 /datum/loadout_item/suit/shawl

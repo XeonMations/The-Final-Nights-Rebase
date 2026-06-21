@@ -20436,10 +20436,6 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/dirt,
 /area/vtm/outside/pacificheights)
-"eZt" = (
-/obj/structure/secure_safe/directional/east,
-/turf/open/floor/city/plating,
-/area/vtm/interior/setite)
 "eZz" = (
 /obj/effect/turf_decal/siding/grey,
 /turf/open/floor/city/plating_mono,
@@ -40834,6 +40830,10 @@
 /obj/structure/barrels/rand,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights/industrial)
+"jYl" = (
+/obj/effect/turf_decal/siding/wood/light,
+/turf/open/floor/carpet/darkpack/greengold,
+/area/vtm/interior/setite)
 "jYn" = (
 /obj/effect/turf_decal/bordur,
 /obj/machinery/light/prince/directional/north,
@@ -44274,9 +44274,6 @@
 /obj/machinery/door/poddoor/shutters/preopen/topless{
 	id = 4771;
 	plane = -2.9
-	},
-/obj/effect/turf_decal/siding/wood/light{
-	dir = 1
 	},
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/setite)
@@ -84496,6 +84493,7 @@
 /obj/structure/railing/corner{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/wood/light,
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/setite)
 "uAr" = (
@@ -180714,7 +180712,7 @@ yec
 yec
 yec
 uAl
-pEN
+udG
 udG
 udG
 bfM
@@ -180917,7 +180915,7 @@ jMb
 wZO
 oNO
 wZO
-wZO
+jYl
 kQl
 udG
 udG
@@ -181121,8 +181119,8 @@ bSo
 wZO
 wZO
 wZO
-wZO
-pEN
+jYl
+udG
 udG
 udG
 wbw
@@ -181734,7 +181732,7 @@ bIC
 qoc
 dFm
 dnW
-eZt
+dFm
 gEy
 sEo
 nPK

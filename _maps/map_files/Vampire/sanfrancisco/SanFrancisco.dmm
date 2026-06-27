@@ -9511,11 +9511,29 @@
 /turf/open/floor/carpet/black,
 /area/vtm/interior/nosferatu_office)
 "cpv" = (
-/obj/structure/closet,
-/obj/item/gun/ballistic/shotgun/vampire,
-/obj/item/gun/ballistic/shotgun/vampire,
-/obj/item/ammo_box/darkpack/c12g/buck,
-/obj/item/ammo_box/darkpack/c12g/buck,
+/obj/structure/rack/tall/store_shelf_metal,
+/obj/item/ammo_box/darkpack/c45acp/silver{
+	pixel_y = 7;
+	pixel_x = -6
+	},
+/obj/item/ammo_box/darkpack/c45acp/silver{
+	pixel_y = 7;
+	pixel_x = 6
+	},
+/obj/item/gun/ballistic/shotgun/vampire{
+	pixel_y = 29
+	},
+/obj/item/ammo_box/darkpack/c12g/buck{
+	pixel_y = 18
+	},
+/obj/item/restraints/handcuffs{
+	pixel_y = -7;
+	pixel_x = -7
+	},
+/obj/item/restraints/handcuffs{
+	pixel_y = -7;
+	pixel_x = 7
+	},
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
@@ -15972,11 +15990,15 @@
 /area/vtm)
 "dWL" = (
 /obj/effect/mapping_helpers/door/lock,
-/obj/structure/vampdoor/reinf{
+/obj/structure/vampdoor/wood{
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/lock_difficulty/ten,
 /obj/effect/mapping_helpers/door/access/federal,
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/door/bash_difficulty/ten,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police/fed)
 "dWN" = (
@@ -19584,6 +19606,12 @@
 	},
 /turf/open/misc/grass,
 /area/vtm/outside/forest)
+"eTo" = (
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
+/turf/open/misc/dirt,
+/area/vtm/interior/police/fed)
 "eTp" = (
 /obj/effect/decal/support,
 /turf/open/floor/city/plating,
@@ -20037,6 +20065,10 @@
 /obj/structure/roadsign/speedlimit40,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/culture)
+"eYk" = (
+/obj/effect/decal/cleanable/trash,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police/fed)
 "eYn" = (
 /obj/structure/vampdoor/wood{
 	dir = 4
@@ -25647,13 +25679,6 @@
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/baywalk)
-"gsD" = (
-/obj/structure/table/wood,
-/obj/structure/reagent_dispensers/wall/peppertank,
-/turf/open/floor/plating/concrete{
-	color = "#bfbfbf"
-	},
-/area/vtm/interior/police/fed)
 "gsF" = (
 /obj/item/smartphone/payphone{
 	dir = 8;
@@ -32574,6 +32599,12 @@
 /obj/machinery/light/warm/directional/south,
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer/nosferatu_warren)
+"ifm" = (
+/obj/effect/decal/cleanable/trash,
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
+/area/vtm/interior/police/fed)
 "ifu" = (
 /obj/effect/turf_decal/asphaltline/alt{
 	pixel_x = -14
@@ -32753,6 +32784,17 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm)
+"iix" = (
+/obj/structure/table,
+/obj/structure/reagent_dispensers/wall/peppertank{
+	pixel_y = 5
+	},
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/misc/dirt,
+/area/vtm/interior/police/fed)
 "iiz" = (
 /obj/effect/decal/cleanable/trash{
 	icon_state = "trash7"
@@ -36284,30 +36326,6 @@
 "iZI" = (
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/chantry/basement)
-"iZS" = (
-/obj/structure/closet/crate,
-/obj/item/storage/belt/security/police,
-/obj/item/storage/belt/security/police,
-/obj/item/storage/belt/security/police,
-/obj/item/storage/box/handcuffs,
-/obj/item/clothing/gloves/tackler/combat/insulated,
-/obj/item/clothing/gloves/tackler/combat/insulated,
-/obj/item/clothing/gloves/tackler/combat/insulated,
-/obj/item/clothing/head/vampire/helmet,
-/obj/item/clothing/head/vampire/helmet,
-/obj/item/clothing/head/vampire/helmet,
-/obj/item/reagent_containers/spray/pepper,
-/obj/item/reagent_containers/spray/pepper,
-/obj/item/gun/energy/taser/darkpack,
-/obj/item/gun/energy/taser/darkpack,
-/obj/item/melee/baton/vamp,
-/obj/item/melee/baton/vamp,
-/obj/item/storage/box/teargas,
-/obj/item/storage/box/flashbangs,
-/turf/open/floor/plating/concrete{
-	color = "#bfbfbf"
-	},
-/area/vtm/interior/police/fed)
 "iZX" = (
 /obj/structure/table/glass,
 /obj/machinery/light/directional/south,
@@ -57323,14 +57341,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/bianchiBank)
-"ofH" = (
-/obj/structure/closet,
-/obj/item/ammo_box/darkpack/c45acp/silver,
-/obj/item/ammo_box/darkpack/c45acp/silver,
-/turf/open/floor/plating/concrete{
-	color = "#bfbfbf"
-	},
-/area/vtm/interior/police/fed)
 "ofJ" = (
 /obj/effect/decal/pallet,
 /obj/effect/turf_decal/bordur{
@@ -65711,6 +65721,16 @@
 /obj/item/binoculars,
 /obj/item/ammo_box/darkpack/c45acp/hp,
 /obj/item/ammo_box/darkpack/c45acp/hp,
+/obj/item/clothing/head/vampire/darkpack_ert/swat_helmet/fbi,
+/obj/item/clothing/head/vampire/darkpack_ert/swat_helmet/fbi,
+/obj/item/clothing/under/vampire/police/fbi/utility,
+/obj/item/clothing/under/vampire/police/fbi/utility,
+/obj/item/clothing/under/vampire/police/fbi/pants,
+/obj/item/clothing/under/vampire/police/fbi/pants,
+/obj/item/clothing/under/vampire/police/fbi,
+/obj/item/clothing/under/vampire/police/fbi,
+/obj/item/storage/belt/security/police,
+/obj/item/storage/belt/security/police,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police/fed)
 "qhn" = (
@@ -77860,9 +77880,29 @@
 /turf/open/floor/city/factory,
 /area/vtm/interior/police)
 "thK" = (
-/obj/structure/closet,
-/obj/item/vampire_stake,
-/obj/item/vampire_stake,
+/obj/structure/rack/tall/store_shelf_metal,
+/obj/item/vampire_stake{
+	pixel_y = 4;
+	pixel_x = -6
+	},
+/obj/item/vampire_stake{
+	pixel_y = 4;
+	pixel_x = 6
+	},
+/obj/item/gun/ballistic/shotgun/vampire{
+	pixel_y = 29
+	},
+/obj/item/ammo_box/darkpack/c12g/buck{
+	pixel_y = 18
+	},
+/obj/item/restraints/handcuffs{
+	pixel_y = -7;
+	pixel_x = -7
+	},
+/obj/item/restraints/handcuffs{
+	pixel_y = -7;
+	pixel_x = 7
+	},
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
@@ -123239,7 +123279,7 @@ uvs
 uvs
 uvs
 uvs
-umm
+fgG
 mAG
 pvT
 jnW
@@ -123443,7 +123483,7 @@ uvs
 uvs
 uvs
 uvs
-umm
+fgG
 nMV
 gBj
 gBj
@@ -123647,7 +123687,7 @@ uvs
 uvs
 uvs
 uvs
-umm
+fgG
 vry
 dyN
 gBj
@@ -123851,7 +123891,7 @@ uvs
 uvs
 uvs
 uvs
-umm
+fgG
 vhi
 vry
 pNb
@@ -124055,7 +124095,7 @@ uvs
 uvs
 uvs
 uvs
-umm
+fgG
 dIj
 vry
 mAG
@@ -124259,7 +124299,7 @@ uvs
 uvs
 uvs
 uvs
-umm
+fgG
 fgG
 fgG
 fgG
@@ -124463,7 +124503,7 @@ uvs
 uvs
 uvs
 uvs
-umm
+fgG
 sHM
 sHM
 vQk
@@ -124667,7 +124707,7 @@ uvs
 uvs
 uvs
 uvs
-umm
+fgG
 dCh
 eou
 eou
@@ -124871,7 +124911,7 @@ uvs
 uvs
 uvs
 uvs
-umm
+fgG
 eou
 aOc
 eou
@@ -125075,7 +125115,7 @@ uvs
 uvs
 uvs
 uvs
-umm
+fgG
 sHM
 sHM
 sHM
@@ -125279,15 +125319,15 @@ uvs
 uvs
 uvs
 uvs
-umm
-vaO
+fgG
+xql
 xql
 xql
 xql
 xql
 cEO
 aTY
-aTY
+eYk
 xql
 iuF
 iXj
@@ -125484,7 +125524,7 @@ uvs
 uvs
 uvs
 uvs
-vaO
+xql
 wLs
 hjx
 bTK
@@ -125688,7 +125728,7 @@ uvs
 uvs
 uvs
 uvs
-vaO
+xql
 qoI
 fWp
 yiq
@@ -125892,7 +125932,7 @@ uvs
 uvs
 uvs
 uvs
-vaO
+xql
 oTO
 oef
 wLs
@@ -126096,7 +126136,7 @@ uvs
 uvs
 uvs
 uvs
-vaO
+xql
 ksJ
 xbI
 wLs
@@ -126300,19 +126340,19 @@ uvs
 uvs
 uvs
 uvs
-vaO
-vaO
-vaO
-vaO
-vaO
-vaO
+xql
+xql
+xql
+xql
+xql
+xql
 dWL
-vaO
-vaO
-vaO
-vaO
-vaO
-vaO
+xql
+xql
+xql
+xql
+xql
+xql
 vaO
 hqj
 fnB
@@ -126507,12 +126547,12 @@ uvs
 uvs
 uvs
 uvs
-vaO
+xql
 cpv
+ifm
 fWp
-fWp
-vaO
-uvs
+eTo
+xql
 uvs
 uvs
 uvs
@@ -126711,12 +126751,12 @@ uvs
 uvs
 uvs
 uvs
-vaO
+xql
 thK
 fWp
-gsD
-vaO
-uvs
+fWp
+eTo
+xql
 uvs
 uvs
 uvs
@@ -126915,12 +126955,12 @@ uvs
 uvs
 uvs
 uvs
-vaO
-ofH
-xbI
-iZS
-vaO
-uvs
+xql
+xql
+iix
+fWp
+ifm
+xql
 uvs
 uvs
 uvs
@@ -127124,7 +127164,7 @@ vaO
 vaO
 vaO
 vaO
-tuX
+vaO
 tuX
 tuX
 tuX

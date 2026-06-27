@@ -1,5 +1,3 @@
-#define LANGUAGE_ORIGIN "origin"
-
 /datum/preference/choiced/country_of_origin/apply_to_human(mob/living/carbon/human/target, value)
 	var/static/list/country_language_map
 	if(!country_language_map)
@@ -119,6 +117,4 @@
 		return
 	for(var/language_type in languages)
 		if(!target.has_language(language_type))
-			target.grant_language(language_type, SPOKEN_LANGUAGE|UNDERSTOOD_LANGUAGE, source = LANGUAGE_ORIGIN)
-
-#undef LANGUAGE_ORIGIN
+			target.grant_language(language_type, SPOKEN_LANGUAGE|UNDERSTOOD_LANGUAGE, source = "country_of_origin")

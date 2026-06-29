@@ -6045,13 +6045,6 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch/basement)
-"bzY" = (
-/obj/machinery/door/poddoor/shutters/preopen/topless{
-	id = 4771;
-	plane = -2.9
-	},
-/turf/open/floor/wood/smooth,
-/area/vtm/interior/setite)
 "bAa" = (
 /obj/structure/table/wood,
 /obj/item/kirbyplants/darkpack/plant4{
@@ -181017,7 +181010,7 @@ wPU
 plF
 wPU
 rHH
-bzY
+udG
 udG
 udG
 lwm

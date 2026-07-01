@@ -14,7 +14,8 @@
 		/datum/job_department/citizen
 	)
 
-	allowed_splats = list(SPLAT_KINDRED, SPLAT_GHOUL, SPLAT_KINFOLK, SPLAT_NONE)
+	allowed_splats = list(SPLAT_KINDRED, SPLAT_GHOUL, SPLAT_KINFOLK, SPLAT_GAROU, SPLAT_CORAX, SPLAT_NONE)
+	allowed_tribes = list(TRIBE_BLACK_SPIRAL_DANCERS, TRIBE_FORSWORN)
 
 	description = "You are a reporter for Red News Network working out of San-Francisco to find the next headline. Use your broadcast camera and badge to get the next big scoop."
 	minimal_masquerade = 3

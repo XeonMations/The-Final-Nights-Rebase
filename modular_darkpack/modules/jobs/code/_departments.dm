@@ -160,8 +160,7 @@
 	department_bitflags = DEPARTMENT_BITFLAG_RED_NEWS
 	display_order = 1
 	ui_color = COLOR_CORP_OMNI_TV
-	label_class = "true_sabbat"
-	ui_color = "#3d0404ff"
+	label_class = "pentex"
 // TFN EDIT ADD END - Red News
 
 /datum/job_department/society_of_leopold
